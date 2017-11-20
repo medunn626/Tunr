@@ -10,12 +10,18 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+// import { ManagerShowComponent } from './managers/manager-show/manager-show.component';
+// import { ManagerEditComponent } from './managers/manager-edit/manager-edit.component';
+// import { ManagerNewComponent } from './managers/manager-new/manager-new.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    // ManagerShowComponent,
+    // ManagerEditComponent,
+    // ManagerNewComponent
   ],
   imports: [
     BrowserModule,
